@@ -7,7 +7,7 @@ h1{
 
 }
 form{
-    background-image: url(background.jpg);
+    background-image: url(images/background.jpg);
     background-size:cover;
     margin-right: 500px;
 }
@@ -17,5 +17,9 @@ body{
     font-size:xx-large;
     font-family: 'Times New Roman', Times, serif;
     text-emphasis-color: aqua;
-    color: rgb(20, 239, 60);
+    color: rgb(253, 215, 78);
+}
+.fixec-button{
+    float: inline-start;
+
 }

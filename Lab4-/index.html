@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User Sign-Up</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <img src="images/nerd.jpg" alt="logo" width="250">
+    <!-- <h1>New User Sign-Up</h1> -->
+    <div class="signup-header">New User Signup</div>
+    <form id="form" action="http://mumstudents.org/params.php" method="post">
+        <label for="student_name">Student Name: </label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" maxlength="16"> <br><br>
+        <label for="Gender"> Gender: </label>
+        <input type="radio" value="1" name="gender"> Male
+        <input type="radio" value="1" name="gender"> Female <br><br>
+        <label for="Age" > Age: </label>
+        <input type="number" id="age" name="age" placeholder="Enter your Age"><br><br>
+        <label for="personality_type">personality type: </label>
+        <input type="text" id="personality" name="personality" placeholder="personality type"> 
+        <a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp" > (Don't know your type)</a><br><br>
+        <label for="os"> Favorite Operating System:   </label>
+        <select id="os">
+            <option>select Operating system: </option>
+            <option value="1">Mac OS X</option>
+            <option value="1">Windows</option>
+            <option value="1">Linux</option>
+        </select> <br><br>
+        <label for="SeekingAge"> Seeking Age: </label>
+        <input type="number" id="SeekingAge1" name="personality" placeholder="min" pattern="\d*" maxlength="2" size="6"> to 
+        <input type="number" id="SeekingAge2" name="personality" placeholder="max" pattern="\d*" maxlength="2" size="6"> <br><br>
+        <div id="signup">
+        <input type="submit" value="Sign Up">
+        </div>
+    </form>
+
+    <p>
+        This page for dingle nerds to meet and date each other! Type in <br>
+        your personal information and wait for the nerdly luv to begin! <br>
+        Thank you for using our site.
+    </p>
+    <p>
+        Results and page (C) Copyright Nerdluv Inc.
+    </p>
+    <script src="" async defer></script>
+
+        
+       
+
+
+
+
+</body>
+</html>
