@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html lang="en" class="no-js"> <![endif]-->
+
 <html lang="en">
 
 <head>
@@ -15,19 +12,22 @@
 </head>
 
 <body>
-    <!--[if lt IE 7]>
-            <p class="browse-happy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+   
     <h1>Retrieve your grade</h1>
-    <form id="student-form" action="http://mumstudents.org/params.php" method="post">
-        <label for="name">Student Name:</label>
-        <input type="text" id="name" name="name" value=""> <br>
+    <form id="form" action="http://mumstudents.org/params.php" method="post">
+        <label for="student_name">Student Name: </label>
+        <input type="text" id="name" name="name" placeholder="Inter your name"> <br>
         <label for="id">Student ID:</label>
-        <input type="text" id="id" name="id" value="">
+        <input type="text" id="id" name="id" placeholder="Inter your SID">
         <div id="entry">
             <label>
                 <input type="radio" value="1" name="entry">
                 February
+                <br />
+            </label>
+            <label>
+                <input type="radio" value="1" name="entry">
+                May
                 <br />
             </label>
             <label>
@@ -42,15 +42,17 @@
             </label>
         </div>
         <label for="course">Select Course:</label>
-        <select name="course" id="course">
-            <option value=""></option>
-            <option value="CS472">CS472 - Web Programming</option>
+        <select name="course" id="course" >
+            <option value=""> select a course </option>
+            <option value="CS390">CS390 - FPP</option>
+            <option value="CS401">CS401-MPP</option>
+            <option value="CS472">CS472 - WAP</option>
             <option value="CS425">CS425 - Software Engineering</option>
-            <option value="CS544">CS544 - Enterprise Architecture</option>
+            <option value="CS544">CS544 - Enterprise Archite</option>
         </select>
         <br>
         <input type="checkbox" id="consent" name="consent" value="1">
-        <label for="consent">I promise to only look at data about myself</label>
+        <label for="consent">It is under my full consent to only see the Score</label>
         <br>
         <input type="submit" value="Get Grade">
     </form>
