@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)http://mumstudents.org/cs472/2021-11-BL/Lectures/js10/tip.html -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <script>
+        function calcTip() {
+            let subtotal = document.getElementById('subtotal').value;
+            let tip = document.getElementById('tip').value;
+            let total = (parseFloat(subtotal) * parseFloat(tip) / 100) + parseFloat(subtotal);
+            document.getElementById('total').innerText = '$' + total;
+        }
+
+    </script>
+
+    <title>Tip Calculator</title>
+    <link href="tip.css" type="text/css" rel="stylesheet">
+</head>
+
+
+<body data-new-gr-c-s-check-loaded="14.1043.0" data-gr-ext-installed="">
+<h1>
+    <img id="logo" src="calc.jpg" alt="++--**//">
+    Tip Calculator
+</h1>
+
+<div>
+    <label><input id="subtotal" type="text"> $ Subtotal</label>
+</div>
+
+<div>
+    <label><input id="tip" type="text"> % Tip</label>
+</div>
+
+<div>
+    <button id="btn" onclick="calcTip();">Calculate Tip</button>
+</div>
+
+<hr>
+
+<div>
+    <h2>Your total:</h2>
+    <p id="total">$0.00</p>
+</div>
+
+
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+</html>
