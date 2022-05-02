@@ -1,0 +1,23 @@
+body{
+     background-color: gray;  
+  
+    margin: 10px;
+    padding: 10px;
+
+}
+
+#all{
+    border-style: inset; 
+    margin-right: 500px;
+    background-color: gray;
+}
+.container{
+    float:left;
+}
+
+label#form{
+    float: right;
+    margin-top: 10px;
+    margin: right -700px;
+
+}

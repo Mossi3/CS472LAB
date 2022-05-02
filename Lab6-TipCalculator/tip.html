@@ -3,18 +3,9 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <script>
-        function calcTip() {
-            let subtotal = document.getElementById('subtotal').value;
-            let tip = document.getElementById('tip').value;
-            let total = (parseFloat(subtotal) * parseFloat(tip) / 100) + parseFloat(subtotal);
-            document.getElementById('total').innerText = '$' + total;
-        }
-
-    </script>
-
     <title>Tip Calculator</title>
     <link href="tip.css" type="text/css" rel="stylesheet">
+    <script src="tip.js"></script>
 </head>
 
 
