@@ -1,23 +1,18 @@
-body{
-     background-color: gray;  
-  
+/* body{
     margin: 10px;
     padding: 10px;
 
 }
-
-#all{
-    border-style: inset; 
-    margin-right: 500px;
+form{
+    /* background-size:cover; */
+    /* margin-right: 500px;
     background-color: gray;
+    border-style: inset;
 }
-.container{
-    float:left;
-}
+
+
+
 
 label#form{
     float: right;
-    margin-top: 10px;
-    margin: right -700px;
-
-}
+}  */
