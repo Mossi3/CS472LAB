@@ -1,0 +1,11 @@
+{
+  "name": "nodefolder",
+  "version": "1.0.0",
+  "description": "exercise-N2",
+  "main": "myModule.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

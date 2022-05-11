@@ -1,0 +1,11 @@
+{
+  "name": "nodefolder",
+  "version": "1.0.0",
+  "description": "Starting HTTPServer for HelloWorld node file",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mussie-614206",
+  "license": "MIT"
+}
