@@ -3,7 +3,7 @@ const url = require('url');
 const app = express();
 const port = 8080;
 
-app.get('/calculate.js', function(req, res) {
+app.get('/calculate', function(req, res) {
     var q = url.parse(req.url, true);
     var vals = q.query;
 
